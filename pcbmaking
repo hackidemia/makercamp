@@ -1,0 +1,72 @@
+
+A printed circuit board (PCB) is an element in a circuit that physically connects electronic components using conductive tracks. They are made by etching a design onto a board that consists of a non-conductive base covered in a thin coating of copper on one or both sides (some are multilayered with holes connecting the components running all the way through. 
+
+The fabrication of printed circuit boards is a crucial step in an electronics project, and the MakerCamp is equipped to create these. They are used in most electronics today, and can be used in your projects after you have gone through a prototyping phase that uses protoboards and wires. If you're interested in other similar methods of constructing circuits, then check out point-to-point construction and wire wrap for some historical context as well. 
+
+For the manufacture of printed circuit boards, you usually have a few routes you could go down:
+
+- you can get it done professionally but the resulting board will not be free, will take a longer time to make, and is not very satisfying in terms of "I made this myself with my own hands!"
+
+-you can do it at home (but first you'll need to learn how it's done - for example at the MakerCamp)
+
+-we have all the equipment at the MakerCamp, so why not come and do it here!
+
+MakerCamp PCB rules:
+
+-Access to the chemicals is only for people with experience in making PCBs or who have followed a workshop/have otherwise been shown how the process works.
+
+-"don't be on fire" (a rule from London also used by our PCB expert Clement who is based in Paris).
+
+-Put the box of things back after using and leave everything tidy!
+
+-Take care of the equipment and materials - let us know if there are any problems.
+
+-Give a donation for the materials that you consume - let us know if we're getting low on stock.
+
+-Any activity that produces harmful fumes should be undertaken outside.
+
+-Follow any other MakerCamp rules posted inside the container. 
+
+-Update the GitHub with any progress you make.
+
+There are several processes for creating PCBs, at the camp we learnt how to use a toner transfer process for etching:
+
+Materials and equipment:
+
+-Goggles
+-Copper plated boards
+-ORACAL sheets/printable sticker paper
+-Acetone (nail polish remover)
+-Steel wool
+-Laser printer
+-Iron III chloride
+- Iron
+
+Instructions
+
+Step 1: preparing the design
+- You should be at a stage in your project where you have tested the prototype using a protoboard and are now ready to progress to a PCB.
+- You can design the circuit using several different open source softwares including for example kiCAD.
+-We print the inverse copy of the design onto the ORACAL sheet ( it is possible to do this with normal paper as well, but the result will not be anywhere close).
+
+Step 2: transfer
+-Use an iron to heat the side of the copper PCB base board for 30sec.
+-Lay your printed paper onto the PCB, it should stick, if not you need to make sure that the board you are using is clean and free of dust.
+-Now continue to iron the paper onto the board for the next 2mins.
+
+Step 3: checks and finishes
+-Carefully soak the board in water and remove the paper. At this stage the toner should be left behind on the board, so don't rub the paper off too forcefully or this will also be removed.
+-Examine the result; if there are any mistakes, we use acetone to clean the traces of toner left where we don't want them. 
+
+Step 4: etching
+-We can now etch the circuit using a bath of ferric chloride and water solution (1:1) the copper protected by where the toner was will remain behind.
+-We now have to clean the circuit, to get rid of the toner (you can use steel wool and acetone) and there is your final DIY PCB .
+
+Step 5: tidying
+As always, we take care to put everything back in its place.
+
+Step 6: soldering
+To finish your project you will now need to solder the components you need to the board. To brush up on/learn some soldering skills, check out this translation https://docs.google.com/document/d/1YkBuF5sxQMlhC7LwZ6zEoAyu1f2MglEgSyAgYnXi2h4/edit?usp=docslist_api of Electrolab Nanterre's guide to their Dominoux kit, who we were taught by during the MakerCamp!
+
+For projects using DIY PCBs, please check out makehub.io
+Downloadable pdf with pictures coming soon!
