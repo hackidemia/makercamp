@@ -1,0 +1,1413 @@
+Model {
+  Name			  "rfxnl"
+  Version		  4.00
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Thu Apr 10 11:43:47 2003"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "arthur"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Thu Apr 10 14:08:59 2003"
+  ModelVersionFormat	  "1.%<AutoIncrement:5>"
+  ConfigurationManager	  "None"
+  SimParamPage		  "Solver"
+  StartTime		  "0.0"
+  StopTime		  "2"
+  SolverMode		  "SingleTasking"
+  Solver		  "ode4"
+  RelTol		  "1e-3"
+  AbsTol		  "1e-3"
+  Refine		  "1"
+  MaxStep		  "0.0005"
+  MinStep		  "0.0005"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  ".0005"
+  MaxOrder		  5
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  SaveTime		  off
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  off
+  OutputSaveName	  "yout"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  LimitDataPoints	  on
+  MaxDataPoints		  "1000"
+  Decimation		  "1"
+  AlgebraicLoopMsg	  "warning"
+  MinStepSizeMsg	  "warning"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  SingleTaskRateTransMsg  "none"
+  MultiTaskRateTransMsg	  "error"
+  IntegerOverflowMsg	  "warning"
+  CheckForMatrixSingularity "none"
+  UnnecessaryDatatypeConvMsg "none"
+  Int32ToFloatConvMsg	  "warning"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  LinearizationMsg	  "none"
+  VectorMatrixConversionMsg "none"
+  SfunCompatibilityCheckMsg "none"
+  BlockPriorityViolationMsg "warning"
+  ArrayBoundsChecking	  "none"
+  ConsistencyChecking	  "none"
+  ZeroCross		  on
+  Profile		  off
+  SimulationMode	  "normal"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWInlineParameters	  off
+  RTWRetainRTWFile	  off
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  OptimizeBlockIOStorage  on
+  BufferReuse		  on
+  ParameterPooling	  on
+  BlockReductionOpt	  on
+  RTWExpressionDepthLimit 5
+  BooleanDataType	  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "rfxnl"
+    Location		    [33, 69, 590, 723]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "automatic"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Sum
+      Name		      ".."
+      Ports		      [2, 1]
+      Position		      [545, 334, 565, 356]
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      IconShape		      "rectangular"
+      Inputs		      "+-"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "..."
+      Ports		      [2, 1]
+      Position		      [465, 658, 480, 682]
+      Orientation	      "left"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      IconShape		      "rectangular"
+      Inputs		      "-+"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Sum
+      Name		      ".1"
+      Ports		      [2, 1]
+      Position		      [470, 340, 490, 360]
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "1N/mm for\nalpha o/p=1"
+      Position		      [314, 455, 366, 475]
+      Orientation	      "up"
+      FontName		      "Arial"
+      FontSize		      8
+      Expr		      "10*u +7"
+    }
+    Block {
+      BlockType		      Abs
+      Name		      "Abs1"
+      Position		      [290, 793, 320, 817]
+      Orientation	      "left"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      TransferFcn
+      Name		      "CE activation"
+      Position		      [145, 316, 185, 354]
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Numerator		      "[20]"
+      Denominator	      "[1 20]"
+      AbsoluteTolerance	      "auto"
+      Realization	      "auto"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      Position		      [15, 322, 30, 338]
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Value		      "1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Graph"
+      Ports		      [1]
+      Position		      [738, 475, 772, 515]
+      Orientation	      "down"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Floating		      off
+      Location		      [515, 215, 999, 562]
+      Open		      on
+      NumInputPorts	      "1"
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "yonly"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      List {
+	ListType		SelectedSignals
+	axes1			""
+      }
+      Grid		      "on"
+      TimeRange		      "2"
+      YMin		      "0"
+      YMax		      "30"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Ground
+      Name		      "Ground_1"
+      Position		      [630, 775, 640, 785]
+      Orientation	      "left"
+      ShowName		      off
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Ia delay\n10 ms"
+      Position		      [12, 525, 38, 550]
+      Orientation	      "up"
+      FontName		      "Arial"
+      FontSize		      8
+      DelayTime		      ".01"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Ia gain"
+      Position		      [15, 575, 35, 600]
+      Orientation	      "up"
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "Ia transfer function"
+      Position		      [30, 645, 210, 695]
+      Orientation	      "left"
+      DropShadow	      on
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[0; -.4; -4; -44]"
+      Poles		      "[-.04; -.8; -1000; -1000]"
+      Gain		      "[100]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Ib delay\n40 ms"
+      Position		      [70, 267, 95, 293]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      DelayTime		      "0.04"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Ib gain (Gfs)"
+      Position		      [140, 269, 160, 291]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "Ib transfer function"
+      Position		      [305, 272, 460, 308]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[-.15; -1.5; -16]"
+      Poles		      "[-.2; -2; -37]"
+      Gain		      "[.28]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product"
+      Ports		      [3, 1]
+      Position		      [420, 326, 440, 364]
+      ShowName		      off
+      FontName		      "Arial"
+      Inputs		      "3"
+      Multiplication	      "Element-wise(.*)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product1"
+      Ports		      [3, 1]
+      Position		      [160, 758, 180, 852]
+      Orientation	      "left"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Inputs		      "3"
+      Multiplication	      "Element-wise(.*)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product2"
+      Ports		      [2, 1]
+      Position		      [230, 259, 245, 301]
+      Orientation	      "left"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Inputs		      "2"
+      Multiplication	      "Element-wise(.*)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Switch
+      Name		      "Switch"
+      Position		      [319, 490, 361, 505]
+      Orientation	      "up"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Threshold		      "0"
+    }
+    Block {
+      BlockType		      Switch
+      Name		      "Switch1"
+      Position		      [205, 360, 245, 375]
+      Orientation	      "up"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Threshold		      "0"
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator_1"
+      Position		      [540, 775, 550, 785]
+      Orientation	      "left"
+      ShowName		      off
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "additional\nlb pole"
+      Position		      [565, 761, 615, 799]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[]"
+      Poles		      "[-33]"
+      Gain		      "[33]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "alpha mn's"
+      Ports		      [4, 1]
+      Position		      [70, 315, 90, 355]
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      IconShape		      "rectangular"
+      Inputs		      "++++"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "beta\ndelay\n20 ms"
+      Position		      [45, 393, 65, 417]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+      DelayTime		      ".02"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+    }
+    Block {
+      BlockType		      TransferFcn
+      Name		      "beta TF"
+      Position		      [98, 355, 142, 390]
+      Orientation	      "down"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Numerator		      "[100]"
+      Denominator	      "[1 100]"
+      AbsoluteTolerance	      "auto"
+      Realization	      "auto"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "beta gain"
+      Position		      [80, 391, 100, 419]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      ".1"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "change to\nvelocity and\nstabilizing pole"
+      Position		      [178, 485, 272, 525]
+      Orientation	      "up"
+      DropShadow	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[0]"
+      Poles		      "[-500;-500]"
+      Gain		      "[1500]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "displacement\nin mm"
+      Position		      [665, 327, 695, 363]
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      "1000"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "force-\nvelocity\ncurve"
+      Ports		      [1, 1]
+      Position		      [234, 415, 286, 445]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      ShowPortLabels	      on
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      MaskDisplay	      "disp('1/(1-u)')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"force-\nvelocity\ncurve"
+	Location		[480, 85, 980, 386]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"automatic"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [20, 75, 40, 95]
+	  Port			  "1"
+	  LatchInput		  off
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Fcn
+	  Name			  "force-\nvelocity\ncurve"
+	  Position		  [90, 60, 140, 90]
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  FontName		  "Arial"
+	  FontSize		  8
+	  Expr			  "1/ (1-u)"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [170, 75, 190, 95]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "force-\nvelocity\ncurve"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "force-\nvelocity\ncurve"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "force-\nvelocity\ncurve1"
+      Ports		      [1, 1]
+      Position		      [110, 415, 220, 445]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      ShowPortLabels	      on
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      MaskDisplay	      "disp('1+.5(1-exp(-1.5u))')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"force-\nvelocity\ncurve1"
+	Location		[480, 85, 980, 386]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"automatic"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [20, 75, 40, 95]
+	  Port			  "1"
+	  LatchInput		  off
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Fcn
+	  Name			  "force-\nvelocity\ncurve1"
+	  Position		  [90, 60, 200, 90]
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  FontName		  "Arial"
+	  FontSize		  8
+	  Expr			  "1+ 0.5*(1-exp(-1.5*u))"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [230, 75, 250, 95]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "force-\nvelocity\ncurve1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "force-\nvelocity\ncurve1"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "force-\nvelocity\ncurve2"
+      Ports		      [1, 1]
+      Position		      [261, 530, 339, 560]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      ShowPortLabels	      on
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      MaskDisplay	      "disp('1-exp(-.15u)')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"force-\nvelocity\ncurve2"
+	Location		[480, 85, 980, 386]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"automatic"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [20, 75, 40, 95]
+	  Port			  "1"
+	  LatchInput		  off
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Fcn
+	  Name			  "force-\nvelocity\ncurve2"
+	  Position		  [90, 60, 170, 90]
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  FontName		  "Arial"
+	  FontSize		  8
+	  Expr			  "1-exp(-0.15*u)"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [200, 75, 220, 95]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "force-\nvelocity\ncurve2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "force-\nvelocity\ncurve2"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "force-\nvelocity\ncurve3"
+      Ports		      [1, 1]
+      Position		      [358, 530, 442, 560]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      ShowPortLabels	      on
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      MaskDisplay	      "disp('-1+exp(.15u)')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"force-\nvelocity\ncurve3"
+	Location		[480, 85, 980, 386]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"automatic"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [20, 75, 40, 95]
+	  Port			  "1"
+	  LatchInput		  off
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Fcn
+	  Name			  "force-\nvelocity\ncurve3"
+	  Position		  [90, 60, 175, 90]
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  FontName		  "Arial"
+	  FontSize		  8
+	  Expr			  "-1+exp(0.15*u)"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [205, 75, 225, 95]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "force-\nvelocity\ncurve3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "force-\nvelocity\ncurve3"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "gain +\ninitial rate"
+      Position		      [70, 794, 125, 816]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+      Expr		      ".1*u+1"
+    }
+    Block {
+      BlockType		      TransferFcn
+      Name		      "inertia\n1 Kg"
+      Position		      [615, 328, 640, 362]
+      FontName		      "Arial"
+      FontSize		      8
+      Numerator		      "[1]"
+      Denominator	      "[1 0 0]"
+      AbsoluteTolerance	      "auto"
+      Realization	      "auto"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "length + rest length"
+      Position		      [285, 760, 345, 790]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Expr		      ".05*u+1"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "multiplexer"
+      Ports		      [2, 1]
+      Position		      [737, 405, 768, 430]
+      Orientation	      "down"
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Inputs		      "2"
+      DisplayOption	      "none"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "offset"
+      Position		      [323, 635, 357, 655]
+      Orientation	      "up"
+      FontName		      "Arial"
+      FontSize		      8
+      Expr		      "u-8"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "passive\nparallel\nstiffness\n.25N/mm"
+      Position		      [426, 400, 484, 440]
+      Orientation	      "up"
+      DropShadow	      on
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[-25]"
+      Poles		      "[-500]"
+      Gain		      "[5]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Signum
+      Name		      "sign"
+      Position		      [290, 822, 320, 848]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "stabilizing\npole"
+      Position		      [313, 580, 367, 620]
+      Orientation	      "up"
+      DropShadow	      on
+      ShowName		      off
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[ ]"
+      Poles		      "[-500]"
+      Gain		      "[500]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "staircase"
+      Ports		      [0, 1]
+      Position		      [645, 257, 675, 293]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+      SourceBlock	      "simulink3/Sources/Repeating\nSequence"
+      SourceType	      "Repeating table"
+      rep_seq_t		      "[0 0 1 1 2]"
+      rep_seq_y		      "[0 10 10 20 20]"
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s"
+      Position		      [305, 239, 325, 261]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Time		      "1"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "tendon \ncompliance\n(mm/N)"
+      Position		      [482, 470, 508, 505]
+      Orientation	      "down"
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      ".05"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "vel^0.3"
+      Position		      [205, 794, 240, 816]
+      Orientation	      "left"
+      FontName		      "Arial"
+      FontSize		      8
+      Expr		      "u^.3"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "velocity\n"
+      Position		      [365, 786, 415, 824]
+      Orientation	      "left"
+      DropShadow	      on
+      FontName		      "Arial"
+      FontSize		      8
+      Zeros		      "[0;]"
+      Poles		      "[-100;]"
+      Gain		      "[100]"
+      AbsoluteTolerance	      "auto"
+    }
+    Line {
+      SrcBlock		      ".."
+      SrcPort		      1
+      DstBlock		      "inertia\n1 Kg"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Ib gain (Gfs)"
+      SrcPort		      1
+      DstBlock		      "Ib delay\n40 ms"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "alpha mn's"
+      SrcPort		      1
+      Points		      [25, 0]
+      Branch {
+	DstBlock		"CE activation"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"beta TF"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Ib delay\n40 ms"
+      SrcPort		      1
+      Points		      [-20, 0; 0, 40]
+      DstBlock		      "alpha mn's"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "beta gain"
+      SrcPort		      1
+      DstBlock		      "beta\ndelay\n20 ms"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Ia transfer function"
+      SrcPort		      1
+      DstBlock		      "Ia gain"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      ".1"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		".."
+	DstPort			2
+      }
+      Branch {
+	Points			[0, -60]
+	DstBlock		"Ib transfer function"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"tendon \ncompliance\n(mm/N)"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "..."
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Ia transfer function"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"offset"
+	DstPort			1
+      }
+      Branch {
+	Points			[-5, 0]
+	DstBlock		"passive\nparallel\nstiffness\n.25N/mm"
+	DstPort			1
+      }
+      Branch {
+	Points			[-235, 0]
+	DstBlock		"change to\nvelocity and\nstabilizing pole"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Product"
+      SrcPort		      1
+      DstBlock		      ".1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CE activation"
+      SrcPort		      1
+      DstBlock		      "Product"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "beta\ndelay\n20 ms"
+      SrcPort		      1
+      Points		      [-10, 0; 0, -55]
+      DstBlock		      "alpha mn's"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "Ia delay\n10 ms"
+      SrcPort		      1
+      Points		      [0, -180]
+      DstBlock		      "alpha mn's"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      DstBlock		      "alpha mn's"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Ib transfer function"
+      SrcPort		      1
+      DstBlock		      "Product2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Product2"
+      SrcPort		      1
+      DstBlock		      "Ib gain (Gfs)"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "passive\nparallel\nstiffness\n.25N/mm"
+      SrcPort		      1
+      DstBlock		      ".1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "offset"
+      SrcPort		      1
+      DstBlock		      "stabilizing\npole"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "beta TF"
+      SrcPort		      1
+      Points		      [0, 10]
+      DstBlock		      "beta gain"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "tendon \ncompliance\n(mm/N)"
+      SrcPort		      1
+      DstBlock		      "..."
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Switch"
+      SrcPort		      1
+      DstBlock		      "1N/mm for\nalpha o/p=1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Switch1"
+      SrcPort		      1
+      Points		      [0, -10]
+      DstBlock		      "Product"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "step at 1 s"
+      SrcPort		      1
+      Points		      [-15, 0; 0, 20]
+      DstBlock		      "Product2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "change to\nvelocity and\nstabilizing pole"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Switch1"
+	DstPort			2
+      }
+      Branch {
+	Points			[0, -20]
+	DstBlock		"force-\nvelocity\ncurve1"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -20]
+	DstBlock		"force-\nvelocity\ncurve"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "1N/mm for\nalpha o/p=1"
+      SrcPort		      1
+      Points		      [0, -95]
+      DstBlock		      "Product"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "stabilizing\npole"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Switch"
+	DstPort			2
+      }
+      Branch {
+	DstBlock		"force-\nvelocity\ncurve2"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"force-\nvelocity\ncurve3"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve1"
+      SrcPort		      1
+      Points		      [0, -10; 45, 0]
+      DstBlock		      "Switch1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "displacement\nin mm"
+      SrcPort		      1
+      Points		      [15, 0]
+      Branch {
+	Points			[30, 0]
+	DstBlock		"multiplexer"
+	DstPort			1
+      }
+      Branch {
+	Points			[5, 0; 0, 330]
+	DstBlock		"..."
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "staircase"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	Points			[-120, 0; 0, 65]
+	DstBlock		".."
+	DstPort			1
+      }
+      Branch {
+	Points			[-10, 0; 0, 45; 130, 0]
+	DstBlock		"multiplexer"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve3"
+      SrcPort		      1
+      Points		      [0, -5]
+      DstBlock		      "Switch"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve2"
+      SrcPort		      1
+      Points		      [25, 0]
+      DstBlock		      "Switch"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve"
+      SrcPort		      1
+      Points		      [0, -10; -20, 0]
+      DstBlock		      "Switch1"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "multiplexer"
+      SrcPort		      1
+      DstBlock		      "Graph"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Ground_1"
+      SrcPort		      1
+      DstBlock		      "additional\nlb pole"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "additional\nlb pole"
+      SrcPort		      1
+      DstBlock		      "Terminator_1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Product1"
+      SrcPort		      1
+      DstBlock		      "gain +\ninitial rate"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "vel^0.3"
+      SrcPort		      1
+      DstBlock		      "Product1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "length + rest length"
+      SrcPort		      1
+      DstBlock		      "Product1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "sign"
+      SrcPort		      1
+      DstBlock		      "Product1"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "Abs1"
+      SrcPort		      1
+      DstBlock		      "vel^0.3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "velocity\n"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Abs1"
+	DstPort			1
+      }
+      Branch {
+	Points			[-10, 0; 0, 30]
+	DstBlock		"sign"
+	DstPort			1
+      }
+    }
+    Line {
+      Points		      [485, 775; -45, 0]
+      Branch {
+	Points			[0, 30]
+	DstBlock		"velocity\n"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"length + rest length"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "gain +\ninitial rate"
+      SrcPort		      1
+      Points		      [-40, 0]
+    }
+    Line {
+      SrcBlock		      "Ia gain"
+      SrcPort		      1
+      DstBlock		      "Ia delay\n10 ms"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "inertia\n1 Kg"
+      SrcPort		      1
+      DstBlock		      "displacement\nin mm"
+      DstPort		      1
+    }
+    Annotation {
+      Position		      [557, 282]
+      VerticalAlignment	      "top"
+      Text		      "external\nforce"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [752, 517]
+      VerticalAlignment	      "top"
+      Text		      "graph"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [587, 347]
+      VerticalAlignment	      "top"
+      Text		      "resultant\nforce\n(N)"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [517, 352]
+      VerticalAlignment	      "top"
+      Text		      "tendon\nforce\n(N)"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [427, 367]
+      VerticalAlignment	      "top"
+      Text		      "product"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [202, 467]
+      VerticalAlignment	      "top"
+      Text		      "velocity"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [317, 367]
+      VerticalAlignment	      "top"
+      Text		      "active\nparallel\nstiffness"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [27, 287]
+      VerticalAlignment	      "top"
+      Text		      "set-\npoint"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [327, 17]
+      VerticalAlignment	      "top"
+      Text		      "Arthur Prochazka, Deborah Gillard and David Ben"
+"nett (1997)\nImplications of Positive Force Feedback,  J. Neurophysiology 77:"
+" 3237-3251\nNonlinear Reflex Model, Fig. 7.\nDownload from http://gpu.srv.ual"
+"berta.ca/~aprochaz/ "
+      FontSize		      14
+    }
+    Annotation {
+      Position		      [107, 97]
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+      Text		      "1) Double-click on the graph block (extreme rig"
+"ht of model) to display graph  \n2) Click on \"simulation\" above, then \"sim"
+"ulation parameters\" in pop-down menu\n3) select solver options ode4(Runge Ku"
+"tta), Fixed step size .0005, Mode: single tasking\n4) click \"run\" in simula"
+"tion pop-down menu\n5) The graph will show the force applied to the inertial "
+"load (magenta) and the displacement response (yellow)  "
+    }
+    Annotation {
+      Position		      [357, 172]
+      VerticalAlignment	      "top"
+      Text		      "Positive force feedback with a loop gain of 1 i"
+"s initiated after 1 sec, at the same time as the force step.  \nThe result is"
+" near-perfect load compensation.  To change gains and any other parameters, d"
+"ouble click on the relevant boxes"
+    }
+    Annotation {
+      Position		      [427, 877]
+      VerticalAlignment	      "top"
+      Text		      "Houk la transfer function"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+    Annotation {
+      Position		      [232, 757]
+      VerticalAlignment	      "top"
+      Text		      "length + offset"
+      FontName		      "Arial"
+      FontSize		      8
+    }
+  }
+}

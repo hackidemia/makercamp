@@ -1,0 +1,3 @@
+== Muscle Propelled Force Feedback by Pedro Lopes 
+
+Force feedback devices resist miniaturization, because they require physical motors and mechanics. We propose mobile force feedback by eliminating motors and instead actuating the user’s muscles using electrical stimulation. Without the motors, we obtain substantially smaller and more energy-efficient devices. Our prototype fits on the back of a mobile phone. It actuates users’ forearm muscles via four electrodes, which causes users’ muscles to contract involuntarily, so that they tilt the device sideways. As users resist this motion using their other arm, they perceive force feedback.  

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="193.9375"
+   height="186.88335"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="sword.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/nello/games/game_project/web_images/sword.png"
+   inkscape:export-xdpi="96.316765"
+   inkscape:export-ydpi="96.316765"
+   version="1.0">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5536">
+      <stop
+         style="stop-color:#00001c;stop-opacity:1;"
+         offset="0"
+         id="stop5538" />
+      <stop
+         id="stop5854"
+         offset="0.5"
+         style="stop-color:#fdffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#0f0013;stop-opacity:0.9741379;"
+         offset="1"
+         id="stop5540" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5536"
+       id="linearGradient5850"
+       x1="335.07236"
+       y1="548.9201"
+       x2="379.85065"
+       y2="548.9201"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5536"
+       id="linearGradient5864"
+       x1="194.7128"
+       y1="459.9689"
+       x2="342.52921"
+       y2="459.9689"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="499.94162"
+     inkscape:cy="5.6639386"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1279"
+     inkscape:window-height="947"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>sword</dc:title>
+        <dc:date>30/12/2008</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nelson Wright</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>sword straight medieval</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>A straight-bladed sword common in medieval times</dc:description>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Nelson Wright</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Nelson Wright</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="sword"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-187.375,-386.1479)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 187.875,386.65625 L 337.40625,530.125 L 333.34375,535.15625 L 351.02538,552.3336 L 358.09883,559.41719 L 372.75,572.53125 L 380.8125,565.46875 L 367.20352,547.5533 L 357.5836,536.17656 L 346.46875,525.0625 L 344.46875,526.0625 L 247.5,422.03125 L 187.875,386.65625 z"
+       id="path2383"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 344.08321,525.94644 L 337.76976,529.98704"
+       id="path2385"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:url(#linearGradient5864);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 265.3578,460.02765 C 226.41677,422.62095 194.62661,391.9448 194.71298,391.85842 C 194.79936,391.77205 206.51694,398.58744 220.75207,407.00372 L 246.63413,422.30606 L 291.34515,470.28831 C 315.93622,496.67854 337.51263,519.76633 339.29267,521.5945 L 342.5292,524.91844 L 339.52627,526.519 C 337.87462,527.39929 336.44147,528.10161 336.34146,528.0797 C 336.24146,528.05779 304.2988,497.43437 265.35779,460.02766 L 265.3578,460.02765 z"
+       id="path2387" />
+    <path
+       style="fill:#666666;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 334.28571,533.07647 L 218.57143,435.21932 L 188.57143,386.6479"
+       id="path2392" />
+    <path
+       style="fill:#666666;fill-opacity:1"
+       d="M 332.21611,530.55336 C 330.93933,529.44218 322.62236,521.22999 313.73397,512.30406 C 253.64638,451.96269 229.20758,427.37097 229.39122,427.43354 C 229.54545,427.48609 298.55529,493.62029 334.9324,528.5768 L 336.60485,530.18395 L 335.66049,531.38144 C 335.14108,532.04007 334.67594,532.57776 334.62683,532.57632 C 334.57772,532.57488 333.4929,531.66455 332.21611,530.55336 z"
+       id="path2394" />
+    <path
+       style="fill:#666666;fill-opacity:1"
+       d="M 336.73889,528.70797 C 336.32762,528.28478 336.09786,527.97596 336.22831,528.02171 C 336.38664,528.07724 336.97427,527.84766 337.99607,527.33106 C 340.48148,526.07449 342.42535,525.03139 342.50783,524.90999 C 342.55017,524.84768 342.75954,525.00866 342.97308,525.26773 L 343.36135,525.73876 L 340.56012,527.5268 C 339.01945,528.51021 337.69764,529.35141 337.62277,529.39612 C 337.5479,529.44083 337.15016,529.13116 336.73889,528.70797 L 336.73889,528.70797 z"
+       id="path2396" />
+    <path
+       style="fill:none;fill-opacity:1"
+       d="M 365.25931,566.36723 C 357.99355,561.0302 357.85801,560.92256 353.4114,556.95826 L 341.67088,544.25999 C 337.68753,539.48154 334.35983,535.46206 334.27599,535.32781 C 334.14049,535.11084 334.33338,534.82556 336.01221,532.76004 C 337.05098,531.48202 337.97358,530.42041 338.06245,530.40093 C 338.15131,530.38144 339.55549,529.51243 341.18284,528.46978 C 342.8102,527.42714 344.19467,526.60683 344.25945,526.64687 C 344.32424,526.6869 344.82802,526.49301 345.37898,526.21599 L 346.38072,525.71233 L 352.36074,530.1939 C 355.64975,532.65876 360.5668,536.44908 363.28753,538.61683 L 364.44623,545.58865 L 373.63027,552.91225 C 376.59805,558.60699 379.27395,563.72764 379.5767,564.29147 L 380.12717,565.31662 L 376.43749,568.55305 C 374.40817,570.33309 372.71662,571.7842 372.67848,571.77775 C 372.64036,571.7713 369.30173,569.33656 365.25932,566.36723 L 365.25931,566.36723 z"
+       id="path2398"
+       sodipodi:nodetypes="cccssssscccccccccscc" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1.01821721;stroke-opacity:1"
+       id="rect3194"
+       width="40.473057"
+       height="2.5812247"
+       x="-78.67041"
+       y="623.01593"
+       transform="matrix(0.7660743,-0.6427521,0.6149597,0.7885585,0,0)" />
+    <path
+       style="opacity:0.92672412;fill:url(#linearGradient5850);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.50507629;stroke-opacity:1"
+       d="M 365.45325,565.00466 C 361.42679,561.40882 353.00069,553.36601 346.72863,547.13176 L 335.3249,535.79674 L 340.92026,531.04721 L 346.51562,526.29768 L 351.4813,531.1878 C 357.70582,537.31759 364.916,545.77131 373.18122,556.63037 C 376.71055,561.26723 379.59812,565.15478 379.59812,565.26941 C 379.59812,565.38402 378.06274,566.84238 376.18613,568.51019 L 372.77418,571.54257 L 365.45325,565.00466 z"
+       id="path4695" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 339.28572,541.29075 L 351.78572,530.93361"
+       id="path5868" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 345,546.11218 L 356.78572,535.3979"
+       id="path5883" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 350.17857,550.75504 L 361.07143,540.3979"
+       id="path5885" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 354.46429,555.04075 L 365.17857,545.21932"
+       id="path5887" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 359.46429,560.04075 L 369.82143,550.57647"
+       id="path5889" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 364.46429,564.32647 L 373.39286,556.29075"
+       id="path5891" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 369.10714,568.07647 L 376.96429,560.93361"
+       id="path5893" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="handle bit"
+     transform="translate(-187.375,-386.1479)" />
+</svg>

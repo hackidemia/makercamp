@@ -1,0 +1,815 @@
+Model {
+  Name			  "rfxolg29"
+  Version		  4.00
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Thu Apr 10 16:09:52 2003"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "arthur"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Thu Apr 10 17:41:34 2003"
+  ModelVersionFormat	  "1.%<AutoIncrement:2>"
+  ConfigurationManager	  "None"
+  SimParamPage		  "Solver"
+  StartTime		  "0.0"
+  StopTime		  "16"
+  SolverMode		  "Auto"
+  Solver		  "ode4"
+  RelTol		  "1e-3"
+  AbsTol		  "1e-3"
+  Refine		  "1"
+  MaxStep		  "0.1"
+  MinStep		  "0.005"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  ".004"
+  MaxOrder		  5
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  SaveTime		  off
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  off
+  OutputSaveName	  "yout"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  LimitDataPoints	  on
+  MaxDataPoints		  "1000"
+  Decimation		  "1"
+  AlgebraicLoopMsg	  "warning"
+  MinStepSizeMsg	  "warning"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  SingleTaskRateTransMsg  "none"
+  MultiTaskRateTransMsg	  "error"
+  IntegerOverflowMsg	  "warning"
+  CheckForMatrixSingularity "none"
+  UnnecessaryDatatypeConvMsg "none"
+  Int32ToFloatConvMsg	  "warning"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  LinearizationMsg	  "none"
+  VectorMatrixConversionMsg "none"
+  SfunCompatibilityCheckMsg "none"
+  BlockPriorityViolationMsg "warning"
+  ArrayBoundsChecking	  "none"
+  ConsistencyChecking	  "none"
+  ZeroCross		  on
+  Profile		  off
+  SimulationMode	  "normal"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWInlineParameters	  off
+  RTWRetainRTWFile	  off
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  OptimizeBlockIOStorage  on
+  BufferReuse		  on
+  ParameterPooling	  on
+  BlockReductionOpt	  on
+  RTWExpressionDepthLimit 5
+  BooleanDataType	  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "rfxolg29"
+    Location		    [0, 74, 640, 531]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "automatic"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Sum
+      Name		      "..."
+      Ports		      [2, 1]
+      Position		      [315, 368, 330, 392]
+      Orientation	      "left"
+      ShowName		      off
+      IconShape		      "rectangular"
+      Inputs		      "-+"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Sum
+      Name		      ".1"
+      Ports		      [2, 1]
+      Position		      [315, 145, 335, 165]
+      ShowName		      off
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Sum
+      Name		      ".4"
+      Ports		      [6, 1]
+      Position		      [465, 335, 485, 430]
+      Orientation	      "left"
+      ShowName		      off
+      IconShape		      "rectangular"
+      Inputs		      "++++++"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "1N/mm for\nalpha o/p=1"
+      Position		      [188, 175, 232, 190]
+      Orientation	      "up"
+      Expr		      "10*u +7"
+    }
+    Block {
+      BlockType		      TransferFcn
+      Name		      "CE activation"
+      Position		      [100, 124, 130, 156]
+      NamePlacement	      "alternate"
+      Numerator		      "[20]"
+      Denominator	      "[1 20]"
+      AbsoluteTolerance	      "auto"
+      Realization	      "auto"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      Position		      [20, 142, 30, 158]
+      ShowName		      off
+      Value		      "1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain"
+      Position		      [125, 71, 145, 99]
+      Orientation	      "left"
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain1"
+      Position		      [358, 270, 382, 295]
+      Orientation	      "down"
+      NamePlacement	      "alternate"
+      FontName		      "Arial"
+      FontSize		      8
+      Gain		      ".05"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Graph"
+      Ports		      [1]
+      Position		      [488, 230, 522, 270]
+      Orientation	      "down"
+      FontName		      "Arial"
+      FontSize		      8
+      Floating		      off
+      Location		      [456, 215, 940, 562]
+      Open		      on
+      NumInputPorts	      "1"
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      List {
+	ListType		SelectedSignals
+	axes1			""
+      }
+      Grid		      "on"
+      TimeRange		      "16"
+      YMin		      "0"
+      YMax		      "30"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData1"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Ib delay\n40 ms"
+      Position		      [55, 72, 80, 98]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      DelayTime		      ".04"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "Ib transfer function"
+      Position		      [185, 72, 325, 98]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      Zeros		      "[-.15; -1.5; -16]"
+      Poles		      "[-.2; -2; -37]"
+      Gain		      "[.28]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Product
+      Name		      "Product"
+      Ports		      [3, 1]
+      Position		      [245, 132, 255, 168]
+      ShowName		      off
+      Inputs		      "3"
+      Multiplication	      "Element-wise(.*)"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Switch
+      Name		      "Switch"
+      Position		      [189, 210, 231, 225]
+      Orientation	      "up"
+      ShowName		      off
+      Threshold		      "0"
+    }
+    Block {
+      BlockType		      Switch
+      Name		      "Switch1"
+      Position		      [115, 210, 155, 225]
+      Orientation	      "up"
+      ShowName		      off
+      Threshold		      "0"
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "alpha mn's"
+      Ports		      [2, 1]
+      Position		      [50, 120, 70, 160]
+      NamePlacement	      "alternate"
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      SignalGenerator
+      Name		      "ampl=2,\n 1 Hz "
+      Position		      [470, 75, 490, 95]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      WaveForm		      "sine"
+      Amplitude		      "2.500000"
+      Frequency		      "6.280000"
+      Units		      "rad/sec"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "force-\nvelocity\ncurve"
+      Position		      [141, 255, 159, 270]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Expr		      "1/ (1-u)"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "force-\nvelocity\ncurve1"
+      Position		      [112, 255, 128, 270]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Expr		      "1+ 0.5*(1-exp(-1.5*u))"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "force-\nvelocity\ncurve2"
+      Position		      [187, 255, 203, 270]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Expr		      "1-exp(-0.15*u)"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "force-\nvelocity\ncurve3"
+      Position		      [214, 255, 236, 270]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Expr		      "-1+exp(0.15*u)"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "multiplexer2"
+      Ports		      [3, 1]
+      Position		      [410, 128, 430, 182]
+      Inputs		      "3"
+      DisplayOption	      "none"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "offset"
+      Position		      [196, 340, 224, 355]
+      Orientation	      "up"
+      Expr		      "u-8"
+    }
+    Block {
+      BlockType		      Fcn
+      Name		      "offset."
+      Position		      [400, 75, 440, 95]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      Expr		      "u + 2.5"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "passive\nparallel\nstiffness\n.25N/mm"
+      Position		      [265, 210, 315, 235]
+      Orientation	      "up"
+      Zeros		      "[-25]"
+      Poles		      "[-1000]"
+      Gain		      "[10]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "stabilizing\npole"
+      Position		      [188, 300, 232, 325]
+      Orientation	      "up"
+      Zeros		      "[ ]"
+      Poles		      "[-100]"
+      Gain		      "[100]"
+      AbsoluteTolerance	      "auto"
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s"
+      Position		      [510, 338, 525, 352]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "2"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s1"
+      Position		      [510, 353, 525, 367]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "4"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s2"
+      Position		      [510, 368, 525, 382]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "6"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s3"
+      Position		      [510, 383, 525, 397]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "8"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s4"
+      Position		      [510, 398, 525, 412]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "10"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Step
+      Name		      "step at 1 s5"
+      Position		      [510, 413, 525, 427]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Time		      "12"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "tendon\ncompliance*\n(mm/N)1"
+      Position		      [425, 378, 445, 392]
+      Orientation	      "left"
+      ShowName		      off
+      OpenFcn		      "slideg(0,2,10,0)"
+      Gain		      "2"
+      Multiplication	      "Element-wise(K.*u)"
+      SaturateOnIntegerOverflow	on
+      MaskDisplay	      "disp('2')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+    }
+    Block {
+      BlockType		      ZeroPole
+      Name		      "velocity"
+      Position		      [98, 300, 172, 325]
+      Orientation	      "up"
+      NamePlacement	      "alternate"
+      Zeros		      "[0]"
+      Poles		      "[-100;-100]"
+      Gain		      "[150]"
+      AbsoluteTolerance	      "auto"
+    }
+    Line {
+      SrcBlock		      "Gain"
+      SrcPort		      1
+      DstBlock		      "Ib delay\n40 ms"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "alpha mn's"
+      SrcPort		      1
+      DstBlock		      "CE activation"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Ib delay\n40 ms"
+      SrcPort		      1
+      Points		      [-25, 0; 0, 45]
+      DstBlock		      "alpha mn's"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Product"
+      SrcPort		      1
+      DstBlock		      ".1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CE activation"
+      SrcPort		      1
+      DstBlock		      "Product"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      DstBlock		      "alpha mn's"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "passive\nparallel\nstiffness\n.25N/mm"
+      SrcPort		      1
+      Points		      [0, -45]
+      DstBlock		      ".1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "..."
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	Points			[-100, 0]
+	DstBlock		"offset"
+	DstPort			1
+      }
+      Branch {
+	Points			[-20, 0]
+	DstBlock		"passive\nparallel\nstiffness\n.25N/mm"
+	DstPort			1
+      }
+      Branch {
+	Points			[-175, 0]
+	DstBlock		"velocity"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Gain1"
+      SrcPort		      1
+      Points		      [0, 75]
+      DstBlock		      "..."
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      ".1"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"multiplexer2"
+	DstPort			2
+      }
+      Branch {
+	Points			[30, 0]
+	DstBlock		"Gain1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "offset."
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	Points			[-10, 0; 0, 50]
+	DstBlock		"multiplexer2"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"Ib transfer function"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "ampl=2,\n 1 Hz "
+      SrcPort		      1
+      DstBlock		      "offset."
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Ib transfer function"
+      SrcPort		      1
+      DstBlock		      "Gain"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "step at 1 s"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "step at 1 s1"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "step at 1 s2"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "step at 1 s3"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "step at 1 s4"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "step at 1 s5"
+      SrcPort		      1
+      DstBlock		      ".4"
+      DstPort		      6
+    }
+    Line {
+      SrcBlock		      ".4"
+      SrcPort		      1
+      DstBlock		      "tendon\ncompliance*\n(mm/N)1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "tendon\ncompliance*\n(mm/N)1"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"..."
+	DstPort			2
+      }
+      Branch {
+	Points			[-30, 0; 0, -210]
+	DstBlock		"multiplexer2"
+	DstPort			3
+      }
+    }
+    Line {
+      SrcBlock		      "multiplexer2"
+      SrcPort		      1
+      Points		      [5, 0; 0, 60]
+      DstBlock		      "Graph"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "offset"
+      SrcPort		      1
+      DstBlock		      "stabilizing\npole"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "stabilizing\npole"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Switch"
+	DstPort			2
+      }
+      Branch {
+	Points			[0, -5; 15, 0]
+	DstBlock		"force-\nvelocity\ncurve3"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -5; -15, 0]
+	DstBlock		"force-\nvelocity\ncurve2"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve3"
+      SrcPort		      1
+      DstBlock		      "Switch"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve2"
+      SrcPort		      1
+      DstBlock		      "Switch"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Switch"
+      SrcPort		      1
+      DstBlock		      "1N/mm for\nalpha o/p=1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve"
+      SrcPort		      1
+      DstBlock		      "Switch1"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "force-\nvelocity\ncurve1"
+      SrcPort		      1
+      DstBlock		      "Switch1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "velocity"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	DstBlock		"Switch1"
+	DstPort			2
+      }
+      Branch {
+	Points			[0, -5; 15, 0]
+	DstBlock		"force-\nvelocity\ncurve"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -5; -15, 0]
+	DstBlock		"force-\nvelocity\ncurve1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Switch1"
+      SrcPort		      1
+      Points		      [0, -55]
+      DstBlock		      "Product"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "1N/mm for\nalpha o/p=1"
+      SrcPort		      1
+      Points		      [0, -10]
+      DstBlock		      "Product"
+      DstPort		      3
+    }
+    Annotation {
+      Position		      [317, 12]
+      VerticalAlignment	      "top"
+      Text		      "OLG of rfxdy29 \n "
+      FontSize		      12
+    }
+    Annotation {
+      Position		      [107, 12]
+      VerticalAlignment	      "top"
+      Text		      "c:\\matlab\\rfxolg29 12 Dec 1996 "
+      FontSize		      12
+    }
+    Annotation {
+      Position		      [477, 317]
+      VerticalAlignment	      "top"
+      Text		      "staircase: step every 2 sec"
+    }
+  }
+}
