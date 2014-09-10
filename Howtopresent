@@ -1,0 +1,98 @@
+Case Study: MakerCamp DemoDay Presentations of Janez and Bokamoso
+ 
+During the MakerCamp, aside from constructing the MakerSpace and having to work on his/her own project, each participant also had to prepare for a DemoDay with people from the industry at which they would present their work. Knowing how to present is a useful skill, and we've compiled a guide on how to prepare, and shown some of the pitfalls that you might fall into along the way using Bokamoso and Janez' presentations as case studies. 
+
+The process of preparing:
+
+·       Prior to the camp participants were told as part of the deck before they applied to the camp that there would be a DemoDay of presentations of the camp
+·       During the camp the participants were encouraged to give presentations about who they were and the work that they were doing/were interested in
+·       One and a half weeks before the DemoDay we confirmed with the participants on which day it would take place, and asked them to prepare their final presentations for the Monday (T-2)afternoon before the final presentations on Wednesday evening
+·       The participants prepared a set of PechaKucha style presentations (T-2) over a period of 2 weeks on different topics to their final presentations in order to get used to presenting and giving strictly timed presentations
+·       One day (T-1) before the DemoDay everyone was given 5 minutes in order to prepare to practise their presentation without slides, so that they would be forced to learn the text of their presentation well (in order to be specific with their words) and in any eventuality (at the final day the [projector broke last minute and Janez had to present without slides)
+·       We practised with our slides on the projector in the space where we were presenting - in hindsight it would have been good to trial our presentation slides in that space at that time of day beforehand so that we could compensate for sunlight with our colour contrasts on the slides
+
+Different practise/evaluation methods:
+
+·       Presenting your pitch to a group of your peers and a mentor with experience in presentations and the judging of pitches. This is followed by individual feedback after each pitch. This helps you to learn very precisely how your presentation could be improved, while also learning from the mistakes of others that you might not be making now, but could be making later
+·       Forcing everyone to give their full presentation without slides, while standing on a (makeshift) podium while all the others are seated. The group is then asked to evaluate each presentation according to posture, content and the general impression that they got from the participant. Giving the people evaluating a structure within which to do so is beneficial as each participant gets focused feedback, and it is easier for the others to give it.
+·       Showing just your slides or just your presentation text to somebody to get feedback on how to improve either.
+·       Giving a one-on-one presentation where instead of waiting until the end to give feedback, the participant is interrupted as and when necessary to improve the succinctness of their speech.
+·       Visiting a pitching event - we went to watch the Betapitches at the People in Beta festival and were able to see which methods were effective and which were not, and also reflect on how we were communicating with others.
+
+Feedback from the first presentations: Electricity Monitor - Bokamoso Palai
+ 
+The Motlakase Meter is an energy monitoring device that measures the electricity consumption in homes by focusing on managing voltage usage in particular appliances.
+ 
+Problems it solves: it makes people aware of their electricity consumption at home, which in the long run will assist Botswana’s population with saving electricity in the country as whole. The solution is based on the current problems of electricity shortage in Botswana, which can lead to unpredictable powercuts.
+ 
+Technology it uses:  Arduino Yun, Android programming environment, power adapters, CT sensors, a breadboard, capacitor and resistors.
+
+Comments from Gregor Gross
+ 
+·       "So its not to save the environment" This shows that the main point of the presentation didn't come across
+·       More information on power outages necessary, so that the problem was more accurately addressed in the presentation and it becomes more relatable for a (in this case) German/mixed European audience.
+·       Spoke about the functionality of the product and what he could envision for the Electricity Monitor. The suggestion was that for product based presentations it is necessary to highlight future development in addition to what the existing product can do.
+·       The advice was to show the stages that went into the developing of the device.
+·       Bokamoso was told that her project was the most valuable project out of all the presentations in terms of impact but that there was too much text preventing the idea from getting across
+·       You are the presentation, the slides are just supporting you
+·       Suggested to make a bigger point of the awareness that the electricity monitor raises
+·       You never have to mention the sponsors in the spoken part of your presentation, just have the logos somewhere in your slides
+·       If you're speaking about another country, it's good to introduce it, for example with Botswana it's possible to make a joke about: who knows where Botswana is? with a map of africa and a map of Botswana in the slides to back up what you're actually saying
+·       Showing pictures instead of text is much more powerful
+·       For the functions of a design, you can use icons, in this case from the multimeter, a web logo, a chart of analysis and images of a phone which is using the program (even if it's only a mockup)
+·       Include the cost of your project in your presentation if you are presenting it to people who could potentially invest, or in this case, if they want to find out how they can help your project and your community
+·       Advice on images: Include 3 pictures of how you made it, when you show the components that went into the product, just have the pictures and don't go into detail when you describe them, just mention the key information and components (nobody needs to know you used crocodile cables in your project)
+·       If at the start you use an image which shows that the electricity is off, then at the end along with your powerful statement, you can show that the electricity is on again
+·       During the presentation you can use slides, be speaking, and also do a demonstration of your project.
+·       For the project demo, you can show the process of measuring the voltage from the beamer
+ 
+ 
+Feedback from the first presentations: LED Flower Pot - Janez Cimerman
+ 
+The LEDFlowerPot is an educational product that teaches children and adults about the best possible way of treating your plants. Our product solves the problem of people forgetting to water their plants by varying LED colours. It makes learning fun and interactive due to features such as the Disco Mode, Mood Mode and Yolo Mode. It has LEDs expressing the feelings of the plant, flashing red when it isn't satisfied. It also functions as a fully customizable decoration, letting you change the color and the on/off time of the LEDs. The prototype includes a humidity sensor, LEDs and an Arduino, but the future plans promise features such as light sensors, temperature sensors, wireless connectivity and gamification all on a chip scale.
+
+Comments from Gregor Gross
+ 
+·       Janez wasted too much time on describing the existing systems that (partially) solved the problem he was looking into of forgetting to water plants
+·       Suggestion to involve the audience by asking "Who is using that?" with reference to one of the old bulky systems, and that you wouldn't need text on this slide
+·       Focus on the design of the text and the headings
+·       Use precise language, and always say what something is as opposed to what it is not
+·       Add a funny picture, use humour in your presentations
+·       Spend less time talking about other projects, instead label their flaws straight away and use it to prove your point, e.g. write EXPENSIVE in big on the slide
+·       Use keywords: I am doing something that is X,Y,Z and use your fingers visually to keep the audience focused on your points
+·       Add some information about where you would like the project to go, for example including an SMS system to alert you to the fact that the plant isn't getting enough water in addition to the LEDs, or show that you could use the same technology for automating the process, in which case people would get an SMS when they had to refill the tank that auto-waters the plants
+·       Add something funny like: you could even add ultrasonics to stop your cat from eating the plant etc. when talking about developments, add-ons and the community
+·       Tell a story, that is really important
+·       Make sure there are no spelling or other language based mistakes
+·       Avoid saying things like "and so on and so on" as it gives the impression that you do not care about your project, despite the fact you obviously care as you've undertaken all this work
+·       Show a video as well as showing the physical product, because switching from one program to another on a large projector screen is ugly and feels awkward
+·       Show the demo with water and how it works in real life rather than with your fingers
+
+ 
+General tips from Gregor on presenting:
+
+·       If you can't get a working prototype, build something similar or fake it - this wins juries over
+·       Show your demonstration on a big screen if you don't want/it's impractical for, 60 people to come up and touch it
+·       Tell a story with your presentation, everything should fit in, and if it doesn't you need to take it out/shorten it/word it differently
+·       Adapt what you're doing to your audience, whether that means using cm, making a joke, explaining some background info about power cuts in Botwana or translating the educational term STEM (science, technology, engineering, mathematics) into the German MINT
+·       There are other engaging techniques of giving presentations, this includes gettng a whiteboard and drawing your story instead of presenting it, or clicking through slides at a very fast pace for example.
+ 
+Some general tips from Stefania on presenting:
+
+·       Get the audience involved in your presentation near to the start: ask a question to the audience
+·       No SO, no BUT
+·       Finish with a memorable short phrase
+·       Speak about concept validation
+
+A presentation tip from Charlie:
+
+·       Rehearse your speech with actions, if you move physically from one side of the stage to the other, then that physically shows a change or a process that you are undergoing through the use of the product
+
+A useful comment from Jay:
+
+·       Adapt what you're saying to your audience, you have to think about how technical their knowledge is going to be in any given field, and for example explain what a microprocessor is, or what 3D printing actually does, to make sure that they follow you
+
+Advice from pitch consultant Lennart:
+
+·       Develop a story
+·       Don't make the mistake of giving all the problems with other products and then immediately saying how to fix those afterwards using your product. Instead mention the problems and continue with the story of your product, and eventually you will get around t proving all those points anyway
